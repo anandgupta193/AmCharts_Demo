@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+
+<head>
+    <title>Graph Test - Library amCharts</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/core.css">
+    <script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+    <script src="https://www.amcharts.com/lib/3/serial.js"></script>
+    <script src="https://www.amcharts.com/lib/3/plugins/export/export.min.js"></script>
+    <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
+    <script src="https://www.amcharts.com/lib/3/themes/none.js"></script>
+    <script src="https://www.amcharts.com/lib/3/pie.js"></script>
+    <script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
+    <script src="https://www.amcharts.com/lib/3/gauge.js"></script>
+    <script src="./lib/core.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <img src="images/graceHeaderLogo.png">
+        </div>
+        <div class="content">
+            <div class="nav-left">
+                <ol>
+                    <li>Dashboards</li>
+                    <li>Alerts</li>
+                    <li>Audit Trail</li>
+                </ol>
+            </div>
+            <div class="main-content">
+
+                <div id="line-chart" class="line-chart">
+                </div>
+                <div class="other-charts">
+                    <div id="pie-chart" class="pie-chart">
+                    </div>
+                    <div id="gauge-chart" class="gauge-chart">
+                    </div>
+                    <div class="dial-chart">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./lib/app.js"></script>
+    <script src="./lib/gaugeChart.js"></script>
+    <script src="./lib/pieChart.js"></script>
+</body>
+
+</html>

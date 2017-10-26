@@ -1,0 +1,57 @@
+html, body, .wrapper{
+    font-size: 14px;
+    height: 100%;
+}
+
+body{
+    margin: 0px;
+}
+
+.header{
+    height: 4em;
+    background-color: #2b3643;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content{
+    display: flex;
+    height: 100%;
+}
+.nav-left{
+    flex: 1;
+    background-color: #333;
+}
+
+ol{
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-padding-start: 0em;
+}
+
+li{
+    list-style-type: none;
+    color: white;
+    font-size: 1.4em;
+    margin-top: 1em;
+    padding-left: 0.5em;
+    border-bottom: 1px solid #e7ecf1;
+}
+
+.main-content{
+    flex: 8;
+    display: flex;
+    flex-direction: column;
+}
+
+.other-charts{
+    display: flex;
+    justify-content: space-between;
+}
+
+.line-chart, .pie-chart, .gauge-chart, .dial-chart{
+    border: 1px solid #e7ecf1;
+    padding: 1em;
+    margin: 0.5em;
+}
+
